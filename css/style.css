@@ -1,0 +1,108 @@
+.content {
+    background-color: azure;
+    border-radius: 20px;
+    text-align: center; 
+}
+.estilo{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 70px;
+
+}
+
+.icone{
+    width: 20px;
+}
+
+.botao {
+    margin: 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 50%; /* Tornar o botão redondo */
+    cursor: pointer;
+}
+
+/* Efeito quando o mouse passa sobre o botão */
+.botao{
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+/* Efeito quando o botão é pressionado */
+.botao:active {
+    transform: scale(0.95);
+}
+
+/* Ícone do play dentro do botão */
+.botao:before {
+    content: "▶"; 
+    font-size: 30px;
+}
+
+.kids {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 20px;
+    animation: float 3s ease-in-out infinite;
+}
+
+
+@keyframes float {
+    0% {
+        transform: translateY(0); /* Começa na posição original */
+    }
+    50% {
+        transform: translateY(-5px); /* Move 10px para cima */
+    }
+    100% {
+        transform: translateY(0); /* Volta à posição inicial */
+    }
+}
+
+.botao {
+    margin: 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    text-align: center;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    border-radius: 50%; /* Tornar o botão redondo */
+    cursor: pointer;
+}
+
+/* Efeito quando o mouse passa sobre o botão */
+.botaoPausar{
+    background-color: #000000;
+    transform: scale(1.1);
+}
+
+/* Efeito quando o botão é pressionado */
+.botaoPausar:active {
+    transform: scale(0.95);
+}
+
+/* Ícone do play dentro do botão */
+.botaoPausar:before {
+    content: "❚❚"; 
+    font-size: 30px;
+}
+

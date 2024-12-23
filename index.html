@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Music Player</title>
+</head>
+<body>
+    <section class="content">
+        <div class="estilo">
+        <p><img src="./img/seta-esquerda.png" alt=""></p>
+        <h1>Now Playing</h1>
+        <p><img src="./img/tres-pontos.png" alt=""></p>
+       </div>
+
+        <div>
+            <img class="kids" src="./img/ab67616d00001e02e27ba26bc14a563bf3d09882.jfif" alt="kids">
+            <h1>Youtiful</h1>
+            <p>Stray Kids</p>
+    
+            <div class="tempo">
+                <span id="current-time">0:00</span>
+                <input type="range" id="progress-bar" min="0" max="100" value="0">
+                <span id="duration">3:29</span>
+                <audio src="./musica/Stray Kids - Youtiful.mp3" id="audio"></audio>
+            </div> 
+
+            <div class="pausar">
+
+                <button class="botao" id="botao"></button>
+
+            </div>
+            
+        </div>
+
+    </section>
+    <script src="./JavaScript/main.js"></script>
+</body>
+</html>
